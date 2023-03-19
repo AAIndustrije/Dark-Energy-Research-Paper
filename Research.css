@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #d1d5db;
+}
+
+.Bars {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px solid transparent;
+    border-radius: 6px;
+    background-color: white;
+    height: 300px;
+    max-width: 800px;
+    border-width: 20px 10px;
+    margin: 3% 20% 0;
+    padding: 40px;
+    box-shadow: 0px 0px 10px rgba(165, 165, 165, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+.Bars2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px solid transparent;
+    border-radius: 6px;
+    background-color: white;
+    height: 700px;
+    max-width: 800px;
+    border-width: 10px 10px;
+    margin: 3% 20% 0;
+    padding: 40px;
+    box-shadow: 0px 0px 10px rgba(165, 165, 165, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+.Bars3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px solid transparent;
+    border-radius: 6px;
+    background-color: white;
+    height: 1800px;
+    max-width: 800px;
+    border-width: 10px 10px;
+    margin: 3% 20% 0;
+    padding: 40px;
+    box-shadow: 0px 0px 10px rgba(165, 165, 165, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+.Bars4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px solid transparent;
+    border-radius: 6px;
+    background-color: white;
+    height: 800px;
+    max-width: 800px;
+    border-width: 10px 10px;
+    margin: 3% 20% 0;
+    padding: 40px;
+    box-shadow: 0px 0px 10px rgba(165, 165, 165, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+.Bars5{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px solid transparent;
+    border-radius: 6px;
+    background-color: white;
+    height: 1250px;
+    max-width: 800px;
+    border-width: 10px 10px;
+    margin: 3% 20% 0;
+    padding: 40px;
+    box-shadow: 0px 0px 10px rgba(165, 165, 165, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+.Bars6{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px solid transparent;
+    border-radius: 6px;
+    background-color: white;
+    height: 1400px;
+    max-width: 800px;
+    border-width: 10px 10px;
+    margin: 3% 20% 0;
+    padding: 40px;
+    box-shadow: 0px 0px 10px rgba(165, 165, 165, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+.Bars7{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px solid transparent;
+    border-radius: 6px;
+    background-color: white;
+    height: 600px;
+    max-width: 800px;
+    border-width: 10px 10px;
+    margin: 3% 20% 0;
+    padding: 40px;
+    box-shadow: 0px 0px 10px rgba(165, 165, 165, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+.Bars:hover {
+    transform: scale(1.02);
+  }
+  .Bars2:hover {
+    transform: scale(1.02);
+  }
+  .Bars3:hover {
+    transform: scale(1.02);
+  }
+  .Bars4:hover {
+    transform: scale(1.02);
+  }
+  .Bars5:hover {
+    transform: scale(1.02);
+  }
+  .Bars6:hover {
+    transform: scale(1.02);
+  }
+
+.ProjTitle {
+    position:relative;
+    text-align: center;
+    font-size: 23px;
+    font-weight:bold;
+    top: -40px;
+}
+.ProjTitleInfl {
+    position:relative;
+    text-align: center;
+    font-size: 24px;
+    font-weight:bold;
+    top: -35px;
+}
+.projWriter {
+    position:relative;
+    top:-45px;
+    color:rgba(0, 0, 0, 0.651);
+}
+.projWriter:hover {
+    opacity:0.7;
+}
+.Projarea {
+    position:relative;
+    top:-40px;
+    color:rgb(0, 0, 0);
+}
+.Abstract {
+    font-size: 12px;
+    top:-30px;
+    position:relative;
+    color:rgb(0, 0, 0);
+}
+.ProjDesc {
+    position:Relative;
+    top: -40px;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #666;
+    margin-bottom: 0;
+}
+.ProjDesc2 {
+    position:Relative;
+    top: -40px;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #666;
+    margin-bottom: 0;
+}
+.Sources {
+    position:Relative;
+    top: -40px;
+    font-size: 12px;
+    line-height: 1.4;
+    color: #1d1d1d;
+    margin-bottom: 0;
+}
+.Hyperlink {
+    text-decoration:none;
+}

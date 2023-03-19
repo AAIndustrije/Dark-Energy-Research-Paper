@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #d1d5db;
+}
+
+.Bars {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px solid transparent;
+    border-radius: 6px;
+    background-color: white;
+    height: 200px;
+    max-width: 800px;
+    border-width: 20px 10px;
+    margin: 3% 20% 0;
+    padding: 40px;
+    box-shadow: 0px 0px 10px rgba(165, 165, 165, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.Bars:hover {
+    transform: scale(1.02);
+}
+
+.ProjTitle {
+    position:relative;
+    text-align: center;
+    font-size: 23px;
+    font-weight:bold;
+    top: -40px;
+}
+.ProjTitle:hover {
+    color: #4caf50;
+    text-decoration: underline;
+    cursor:pointer;
+    }
+.ProjTitle {
+    opacity: 0;
+    animation: fadein 1s forwards;
+    }
+    
+    @keyframes fadein {
+    from {
+    opacity: 0;
+    }
+    to {
+    opacity: 1;
+    }
+    }
+.Projarea {
+    position:relative;
+    top:-40px;
+    color:rgb(0, 0, 0);
+}
+.ProjDesc {
+    position:relative;
+    top: -40px;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #666;
+    margin-bottom: 0;
+    opacity: 0;
+    animation: fadein 1s ease-in-out forwards;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

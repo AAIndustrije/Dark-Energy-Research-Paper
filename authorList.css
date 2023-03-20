@@ -76,3 +76,26 @@ body {
         transform: translateY(0);
     }
 }
+@media only screen and (max-width: 767px) {
+    /* CSS styles for mobile devices with a maximum width of 767px */
+  
+    .Bars {
+      height: auto;
+      max-width: 100%;
+      border-width: 10px;
+      margin: 3% 5%;
+      padding: 20px;
+    }
+  
+    .ProjTitle {
+      font-size: 20px;
+      top: -30px;
+      animation-delay: 0.5s;
+    }
+  
+    .ProjDesc {
+      top: -30px;
+      font-size: 12px;
+      animation-delay: 0.7s;
+    }
+  }
